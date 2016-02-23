@@ -23,6 +23,9 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Garden_Project.py" />
+    <Compile Include="mqtt_client.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="sht31.py">
       <SubType>Code</SubType>
     </Compile>
