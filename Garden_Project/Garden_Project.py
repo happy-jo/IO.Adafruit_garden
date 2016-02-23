@@ -2,7 +2,7 @@ import sys
 import time
 import math
 # import RPi.GPIO as GPIO
-import mqtt_client as MQTTClient
+from Adafruit_IO import MQTTClient
 import sht31
 
 # IO.Adafruit account info, go to io.adafruit.com to setup your account

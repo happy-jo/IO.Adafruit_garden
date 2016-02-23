@@ -22,13 +22,18 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Adafruit_IO\client.py" />
+    <Compile Include="Adafruit_IO\errors.py" />
+    <Compile Include="Adafruit_IO\model.py" />
+    <Compile Include="Adafruit_IO\mqtt_client.py" />
+    <Compile Include="Adafruit_IO\__init__.py" />
     <Compile Include="Garden_Project.py" />
-    <Compile Include="mqtt_client.py">
-      <SubType>Code</SubType>
-    </Compile>
     <Compile Include="sht31.py">
       <SubType>Code</SubType>
     </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Adafruit_IO\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
