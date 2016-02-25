@@ -6,8 +6,8 @@ from Adafruit_IO import MQTTClient
 import sht31
 
 # IO.Adafruit account info, go to io.adafruit.com to setup your account
-ADAFRUIT_IO_KEY      = '280ab53d44fdf85a3d4f95012a62626a8ab9c823'
-ADAFRUIT_IO_USERNAME = 'joestahl'
+ADAFRUIT_IO_KEY      = 'enter your key here'
+ADAFRUIT_IO_USERNAME = 'enter your username here'
 
 # Define callback functions which will be called when certain events happen.
 def connected(client):
