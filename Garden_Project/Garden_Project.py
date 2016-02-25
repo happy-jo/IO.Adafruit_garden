@@ -47,11 +47,11 @@ client.loop_background()
 
 print 'Publishing a new message every 10 seconds (press Ctrl-C to quit)...'
 
-while True:
-    with sht31.SHT31(1) as sht31:
+with sht31.SHT31(1) as sht31:
+    while True:
         temperature, humidity = sht31.get_temp_and_humidity()
         print 'publishing {0} to Temperature Feed'.format(round(temperature * 9/5 +32), 1)
         print 'Publishing {0} to Humidity Feed'.format(round(humidity), 1)
         client.publish('Temperature', temperature)
         client.publish('Humidity', humidity)
-    time.sleep (10)
+        time.sleep (10)
