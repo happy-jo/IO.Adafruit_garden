@@ -4,7 +4,9 @@ Description: A terrarium project that reads sensor data (i.e. sht31, SBT444t and
 ## Dependencies:
 ### Raspberry Pi:
 Run apt-get to update all packaged and run rpi-update to update the Pi. I run them all at once because it will make sure the whole platform is good.
-	sudo apt-get update && apt-get upgrade –y && rpi-update && reboot
+
+    sudo apt-get update && apt-get upgrade –y && rpi-update && reboot
+	
 ### Adafruit-IO-Basic:
 #### Easy Installation:
 If you have [pip installed](https://pip.pypa.io/en/latest/installing.html)
